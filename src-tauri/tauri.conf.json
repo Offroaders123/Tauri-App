@@ -5,9 +5,10 @@
   },
   "build": {
     "distDir": "../dist",
-    "devPath": "../dist",
+    "devPath": "http://127.0.0.1:5500",
     "beforeDevCommand": "",
-    "beforeBuildCommand": ""
+    "beforeBuildCommand": "",
+    "withGlobalTauri": true
   },
   "tauri": {
     "bundle": {

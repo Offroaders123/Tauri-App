@@ -1,25 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
+<head>
+
+<title>Tauri App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base target="_blank">
 
 <style>
-  html, body {
-    margin: 0;
-    padding: 0;
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  html {
     width: 100%;
     height: 100%;
   }
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  body {
+    margin: 0;
+    padding: 0 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", system-ui, sans-serif;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
   }
 </style>
+
+</head>
 
 <body>
 
 <h1>Tauri App</h1>
 
-<p>Started trying out the <a href="https://tauri.studio/">Tauri</a> library! It is an alternative to Electron that uses the native system webview to render a web frontend for your native app.</p>
+<p>A simple test app made with the <a href="https://tauri.studio/">Tauri</a> framework! It's an alternative to Electron which uses the native system webview to render a web-based front end as the user interface for your app.</p>
 
 </body>
 
